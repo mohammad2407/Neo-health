@@ -1,0 +1,20 @@
+GET http://localhost:3004/users
+###
+POST http://localhost:3004/users
+Content-Type: application/json
+
+{
+    "name":"Mohammad",
+    "password":"Bindu2001#",
+    "phone":"8142219730"
+}
+
+###
+
+POST http://localhost:3004/users/login
+Content-Type: application/json
+{
+    "name":"Mohammad",
+    "password":"Bindu200",
+    "phone":"8142219730"
+}
